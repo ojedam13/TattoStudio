@@ -1,6 +1,15 @@
+/* FontFamily
+ font-family: 'Dancing Script',
+ cursive;
+ font-family: 'Roboto',
+ sans-serif;
+ */
+
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,12 +17,6 @@ body {
     font-size: 1.6rem;
     
 }
-/* FontFamily
- font-family: 'Dancing Script',
- cursive;
- font-family: 'Roboto',
- sans-serif;
- */
 
 header,
 section,
@@ -26,7 +29,10 @@ footer{
     background: -webkit-linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
     background: -moz-linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
     background: linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
-    height: 5rem; 
+    height: 5rem;
+    position: sticky; 
+    top: 0;
+    z-index: 9999;
 }
 
 .marca{
@@ -94,9 +100,9 @@ footer{
     margin: 0 auto;
   
 }
-.inicio_txt{
-    /* padding-top: 2rem; */
-}
+/* .inicio_txt{
+    padding-top: 2rem;
+} */
 .inicio_sociales{
     float: left;
     font-size: 3rem;
@@ -239,3 +245,180 @@ footer{
     margin: 0 auto;
 }
 
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header,
+section,
+footer {
+    width: 58rem;
+}
+
+/* Header */
+.marca {
+    width: 23rem;
+    
+}
+
+/* inicio */
+
+
+.inicio_contenedor {
+   background-color: rgba(255, 255, 255, 0.2);
+   height: 22rem;
+   margin: 0 auto;
+   
+}
+
+.inicio_subcontenedor {
+    height: 28rem;
+    
+}
+
+.inicio_subtitulo {
+    text-align: center;
+
+}
+
+.inicio_txt{
+    text-shadow: 1px 1px black;
+}
+.inicio_sociales{
+    position: relative;
+    left: 11rem
+}
+
+.inicio_sociales li a{
+    padding-right: 3rem;
+}
+
+
+/* Artista */
+#artista {
+    background-color: #00ffff;
+    height: 29rem;
+    position: relative;
+}
+
+#img-artista {
+    background-color: #0000ff;
+    height: 25rem;
+    width: 20rem;
+    position: absolute;
+    top: 2rem;
+    left: 20rem;
+}
+
+#txt-artista {
+    background-color: #4f4fb891;
+    height: 25rem;
+    width: 30rem;
+    float: right;
+    position: absolute;
+    top: 2rem;
+    left: 45rem;
+}
+
+/* Trabajos */
+#trabajos {
+    background-color: #a05f95;
+    height: 70rem;
+    position: relative;
+}
+
+.subtitulo {
+    background-color: #000000;
+    height: 5rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.imagen-trabajo-uno {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 7rem;
+    left: 1.5rem;
+}
+
+.imagen-trabajo-dos {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 7rem;
+    left: 33rem;
+}
+
+.imagen-trabajo-tres {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 7rem;
+    left: 64.5rem;
+}
+
+.imagen-trabajo-cuatro {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 38.5rem;
+    left: 1.5rem;
+
+}
+
+.imagen-trabajo-cinco {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 38.5rem;
+    left: 33rem;
+}
+
+.imagen-trabajo-seis {
+    position: absolute;
+    background-color: #db1f11;
+    width: 30rem;
+    height: 30rem;
+    top: 38.5rem;
+    left: 64.5rem;
+}
+
+/* Formulario */
+#contacto {
+    background-color: #d87093;
+    height: 52rem;
+
+}
+
+#formulario {
+    background-color: #00ffdd;
+    height: 45rem;
+    width: 55rem;
+    margin: 1rem auto 0;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #90ee90;
+    height: 5rem;
+}
+
+.redes-sociales {
+    background-color: #ffd000cb;
+    height: 5rem;
+    width: 20rem;
+    float: left;
+}
+
+#txt-footer {
+    background-color: #1900ff;
+    height: 5rem;
+    width: 30rem;
+    margin: 0 auto;
+}
+}   /* fin media 800 a 1023px */
