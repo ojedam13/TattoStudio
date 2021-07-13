@@ -1,8 +1,12 @@
-body{
-    margin: 0;
-    padding: 0;
+html{
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    
 }
 /* FontFamily
  font-family: 'Dancing Script',
@@ -14,32 +18,33 @@ body{
 header,
 section,
 footer{
-    width: 960px;
+    width: 96rem;
     margin: 0 auto;
 }
 /* Header */
 #header{
-    background-color: #000000;
-    height: 50px; 
+    background: -webkit-linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
+    background: -moz-linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
+    background: linear-gradient(90deg, #000000 0%, #111010 50%, #303037 100%);
+    height: 5rem; 
 }
 
 .marca{
     float: right;
-    height: 50px;
-    width: 300px;
+    height: 5rem;
+    width: 30rem;
 }
-
-
 
 #titulo{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: #ffffffea;
-    
+    margin: 0;
+    padding: .5rem 0;
 }
 #navegacion{
-    height: 50px;
-    width: 350px;
+    height: 5rem;
+    width: 35rem;
     float: left;
 }
 
@@ -55,152 +60,182 @@ footer{
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    line-height: 10px;
-    margin-left: 10px;
+    line-height: 1rem;
+    margin-left: 1rem;
     color: #ffffffea;
+}
+#navegacion li a:hover{
+    text-decoration: underline;
 }
 
 /* inicio */
  #inicio {
-    background-color: #00ff00; 
-    height: 500px;
+    height: 50rem;
     background-image: url(../img/tattoo-artist-556036_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-.contenedor {
-    background-color: #ff0000;
-    height: 200px;
-    width: 450px;
+.inicio_contenedor {
+    height: 35rem;
+    width: 45rem;
     position: relative;
-    top: 150px;
-    margin-left: 50px;
-   
-    
+    top: 13rem;
+    margin-left: 5rem;
+    color: #ffffffea;
+}
+.inicio_subcontenedor{
+    height: 28rem;
+}
+.inicio_subtitulo{
+    /* text-align: center; */
+    font-size: 4rem;
+    margin: 0 auto;
+  
+}
+.inicio_txt{
+    /* padding-top: 2rem; */
+}
+.inicio_sociales{
+    float: left;
+    font-size: 3rem;
+      
+}
 
+.inicio_sociales ul{
+    margin: 0;
+    padding: 0;
+}
+.inicio_sociales ul li {
+    text-decoration: none;
+    display: inline-block;
+    
+    
+}
+.inicio_sociales ul li a{
+    color: #ffffffea;
 }
 /* Artista */
 #artista {
     background-color: #00ffff;
-    height: 290px;
+    height: 29rem;
     position: relative;
 }
 
 #img-artista{
     background-color: #0000ff;
-    height: 250px;
-    width: 200px;
+    height: 25rem;
+    width: 20rem;
     position: absolute;
-    top: 20px;
-    left: 200px;
+    top: 2rem;
+    left: 20rem;
 }
 #txt-artista {
     background-color:#4f4fb891;
-    height: 250px;
-    width: 300px;
+    height: 25rem;
+    width: 30rem;
     float: right;
     position: absolute;
-    top: 20px;
-    left: 450px;
+    top: 2rem;
+    left: 45rem;
 }
 
 /* Trabajos */
 #trabajos {
     background-color: #a05f95;
-    height: 700px;
+    height: 70rem;
     position: relative;
 }
 .subtitulo{
     background-color: #000000;
-    height: 50px;
-    width: 200px;
+    height: 5rem;
+    width: 20rem;
     margin: 0 auto;
 }
 
 .imagen-trabajo-uno {
     position: absolute;
     background-color: #db1f11;
-    width: 300px;
-    height: 300px;
-    top: 70px;
-    left: 15px;
+    width: 30rem;
+    height: 30rem;
+    top: 7rem;
+    left: 1.5rem;
 }
 .imagen-trabajo-dos {
     position: absolute;
     background-color: #db1f11;
-     width: 300px;
-     height: 300px;
-     top: 70px;
-     left: 330px;
+     width: 30rem;
+     height: 30rem;
+     top: 7rem;
+     left: 33rem;
 }
  .imagen-trabajo-tres {
     position: absolute;
     background-color: #db1f11;
-     width: 300px;
-     height: 300px;
-     top: 70px;
-     left: 645px;
+     width: 30rem;
+     height: 30rem;
+     top: 7rem;
+     left: 64.5rem;
 }
 .imagen-trabajo-cuatro {
     position: absolute;
     background-color: #db1f11;
-     width: 300px;
-     height: 300px;
-    top: 385px;
-    left: 15px;
+     width: 30rem;
+     height: 30rem;
+    top: 38.5rem;
+    left: 1.5rem;
 
 }
 .imagen-trabajo-cinco {
     position: absolute;
     background-color: #db1f11;
-     width: 300px;
-     height: 300px;
-     top: 385px;
-     left: 330px;
+     width: 30rem;
+     height: 30rem;
+     top: 38.5rem;
+     left: 33rem;
 }
 .imagen-trabajo-seis {
     position: absolute;
     background-color: #db1f11;
-     width: 300px;
-     height: 300px;
-      top: 385px;
-      left: 645px;
+     width: 30rem;
+     height: 30rem;
+      top: 38.5rem;
+      left: 64.5rem;
 } 
 
 /* Formulario */
 #contacto {
     background-color: #d87093;
-    height: 520px;
+    height: 52rem;
     
 }
 
 #formulario{
    background-color: #00ffdd;
-   height: 450px;
-   width: 550px;
-   margin: 10px auto 0; 
+   height: 45rem;
+   width: 55rem;
+   margin: 1rem auto 0; 
 }
 
 
 /* Footer */
 #footer {
     background-color: #90ee90;
-    height: 50px;
+    height: 5rem;
 }
 
 .redes-sociales {
     background-color: #ffd000cb;
-    height: 50px;
-    width: 200px;
+    height: 5rem;
+    width: 20rem;
     float: left;
 }
 
 #txt-footer{
     background-color: #1900ff;
-    height: 50px;
-    width: 300px;
+    height: 5rem;
+    width: 30rem;
     margin: 0 auto;
 }
 
