@@ -58,11 +58,12 @@ footer{
     list-style-type: none;
 }
 
-#navegacion li {
+#navegacion ul li {
     display: inline;
+    
 }
 
-#navegacion li a {
+#navegacion ul li a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -70,7 +71,7 @@ footer{
     margin-left: 1rem;
     color: #ffffffea;
 }
-#navegacion li a:hover{
+#navegacion ul li a:hover{
     text-decoration: underline;
 }
 
@@ -122,10 +123,12 @@ footer{
 .inicio_sociales ul li a{
     color: #ffffffea;
 }
+
 /* Artista */
+
 #artista {
     background-color: #00ffff;
-    height: 29rem;
+    height: 35rem;
     position: relative;
 }
 
@@ -134,8 +137,15 @@ footer{
     height: 25rem;
     width: 20rem;
     position: absolute;
-    top: 2rem;
-    left: 20rem;
+    top: 7rem;
+    left: 25rem;
+}
+
+.tatuador{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 #txt-artista {
     background-color:#4f4fb891;
@@ -143,8 +153,8 @@ footer{
     width: 30rem;
     float: right;
     position: absolute;
-    top: 2rem;
-    left: 45rem;
+    top: 7rem;
+    left: 50rem;
 }
 
 /* Trabajos */
@@ -247,178 +257,58 @@ footer{
 
 @media all and (min-width: 600px) and (max-width: 1023px){
 
-header,
-section,
-footer {
-    width: 58rem;
-}
+    header,
+    section,
+    footer {
+        width: 58rem;
+    }
 
-/* Header */
-.marca {
-    width: 23rem;
-    
-}
+    /* Header */
+    .marca {
+        width: 23rem;
+        
+    }
 
-/* inicio */
-
-
-.inicio_contenedor {
-   background-color: rgba(255, 255, 255, 0.2);
-   height: 22rem;
-   margin: 0 auto;
-   
-}
-
-.inicio_subcontenedor {
-    height: 28rem;
-    
-}
-
-.inicio_subtitulo {
-    text-align: center;
-
-}
-
-.inicio_txt{
-    text-shadow: 1px 1px black;
-}
-.inicio_sociales{
-    position: relative;
-    left: 11rem
-}
-
-.inicio_sociales li a{
-    padding-right: 3rem;
-}
+    /* inicio */
 
 
-/* Artista */
-#artista {
-    background-color: #00ffff;
-    height: 29rem;
-    position: relative;
-}
-
-#img-artista {
-    background-color: #0000ff;
-    height: 25rem;
-    width: 20rem;
-    position: absolute;
-    top: 2rem;
-    left: 20rem;
-}
-
-#txt-artista {
-    background-color: #4f4fb891;
-    height: 25rem;
-    width: 30rem;
-    float: right;
-    position: absolute;
-    top: 2rem;
-    left: 45rem;
-}
-
-/* Trabajos */
-#trabajos {
-    background-color: #a05f95;
-    height: 70rem;
-    position: relative;
-}
-
-.subtitulo {
-    background-color: #000000;
-    height: 5rem;
-    width: 20rem;
+    .inicio_contenedor {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 22rem;
     margin: 0 auto;
+    
+    }
+
+    .inicio_subcontenedor {
+        height: 28rem;
+        
+    }
+
+    .inicio_subtitulo {
+        text-align: center;
+
+    }
+
+    .inicio_txt{
+        text-shadow: 1px 1px black;
+    }
+    .inicio_sociales{
+        position: relative;
+        left: 11rem
+    }
+
+    .inicio_sociales li a{
+        padding-right: 3rem;
+    }
+
+}   
+/* Fin media 800 a 1023px */
+
+@media all and (max-width: 599px){
+    header,
+    section,
+    footer {
+        width: 90%;
+    }
 }
-
-.imagen-trabajo-uno {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 7rem;
-    left: 1.5rem;
-}
-
-.imagen-trabajo-dos {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 7rem;
-    left: 33rem;
-}
-
-.imagen-trabajo-tres {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 7rem;
-    left: 64.5rem;
-}
-
-.imagen-trabajo-cuatro {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 38.5rem;
-    left: 1.5rem;
-
-}
-
-.imagen-trabajo-cinco {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 38.5rem;
-    left: 33rem;
-}
-
-.imagen-trabajo-seis {
-    position: absolute;
-    background-color: #db1f11;
-    width: 30rem;
-    height: 30rem;
-    top: 38.5rem;
-    left: 64.5rem;
-}
-
-/* Formulario */
-#contacto {
-    background-color: #d87093;
-    height: 52rem;
-
-}
-
-#formulario {
-    background-color: #00ffdd;
-    height: 45rem;
-    width: 55rem;
-    margin: 1rem auto 0;
-}
-
-
-/* Footer */
-#footer {
-    background-color: #90ee90;
-    height: 5rem;
-}
-
-.redes-sociales {
-    background-color: #ffd000cb;
-    height: 5rem;
-    width: 20rem;
-    float: left;
-}
-
-#txt-footer {
-    background-color: #1900ff;
-    height: 5rem;
-    width: 30rem;
-    margin: 0 auto;
-}
-}   /* fin media 800 a 1023px */
+/* Fin Media 599px */
