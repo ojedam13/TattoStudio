@@ -144,13 +144,13 @@ footer{
     height: 35rem;
     width: 25rem;
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     left: 22rem;
 }
 
 .tatuador{
-    width: 25rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
     border: 3px solid #303037;
 }
