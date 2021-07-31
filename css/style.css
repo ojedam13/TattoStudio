@@ -373,6 +373,66 @@ footer{
         height: auto;
         margin-top: 5rem;
     }
+
+    /* Trabajos */
+
+    #trabajos {
+        height: 93rem;
+    }
+
+    .imagen-trabajo-uno {
+        width: 26rem;
+        height: 26rem;
+    }
+
+    .imagen-trabajo-dos {
+        width: 26rem;
+        height: 26rem;
+        left: 30rem;
+    }
+
+    .imagen-trabajo-tres {
+        width: 26rem;
+        height: 26rem;
+        top: 35rem;
+        left: 1.5rem;
+    }
+
+    .imagen-trabajo-cuatro {
+        width: 26rem;
+        height: 26rem;
+        top: 35rem;
+        left: 30rem;
+
+    }
+
+    .imagen-trabajo-cinco {
+        width: 26rem;
+        height: 26rem;
+        top: 63rem;
+        left: 1.5rem;
+    }
+
+    .imagen-trabajo-seis {
+        width: 26rem;
+        height: 26rem;
+        top: 63rem;
+        left: 30rem;
+    }
+
+    /* Formulario */
+
+    #contacto {
+        height: 55rem;
+
+    }
+
+    #formulario {
+        width: 90%;
+        margin: 2rem auto 0;
+    }
+
+
 }
 
 /* Fin media 800 a 1023px */
@@ -487,6 +547,66 @@ footer{
         padding: 0 2rem;
         font-size: 1.8rem;
     }
+
+     /* Trabajos */
+
+     #trabajos {
+         height: 201rem;
+     }
+
+     .imagen-trabajo-uno {
+         width: 30rem;
+         height: 30rem;
+         left: 6rem ;
+     }
+
+     .imagen-trabajo-dos {
+         width: 30rem;
+         height: 30rem;
+         top: 39rem;
+         left: 6rem;
+     }
+
+     .imagen-trabajo-tres {
+         width: 30rem;
+         height: 30rem;
+         top: 71rem;
+         left: 6rem;
+     }
+
+     .imagen-trabajo-cuatro {
+         width: 30rem;
+         height: 30rem;
+         top: 103rem;
+         left: 6rem;
+
+     }
+
+     .imagen-trabajo-cinco {
+         width: 30rem;
+         height: 30rem;
+         top: 135rem;
+         left: 6rem;
+     }
+
+     .imagen-trabajo-seis {
+         width: 30rem;
+         height: 30rem;
+         top: 167rem;
+         left: 6rem;
+     }
+
+     /* Formulario */
+
+     #contacto {
+         height: 55rem;
+
+     }
+
+     #formulario {
+         width: 90%;
+         margin: 2rem auto 0;
+     }
 }
 
 /* Fin Media 599px */
