@@ -4,7 +4,11 @@
  font-family: 'Roboto',
  sans-serif;
  */
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -51,6 +55,7 @@ footer{
     height: 5rem;
     width: 35rem;
     float: left;
+    padding: 1.5rem;
 }
 
 #navegacion ul {
@@ -90,6 +95,7 @@ footer{
     top: 13rem;
     margin-left: 5rem;
     color: #ffffffea;
+    
 }
 .inicio_subcontenedor{
     height: 28rem;
@@ -97,27 +103,30 @@ footer{
 .inicio_subtitulo{
     font-size: 4rem;
     margin: 0 auto;
+    padding: 1rem 0;
   
 }
 
 .inicio_txt{
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .inicio_sociales{
     float: left;
     font-size: 3rem;
+    
       
 }
 
 .inicio_sociales ul{
     margin: 0;
-    padding: 0;
+   
 }
 .inicio_sociales ul li {
     text-decoration: none;
     display: inline-block;
-    
+    padding-right: 1rem;
     
 }
 .inicio_sociales ul li a{
@@ -162,10 +171,12 @@ footer{
     top: 6rem;
     left: 50rem;
     color: #ffffff;
+    padding-top: 2rem;
 }
 #txt-artista h3{
     text-align: center;
     font-size: 3rem;
+    padding: 2rem;
 
 }
 #txt-artista p{
@@ -336,14 +347,15 @@ footer{
     .inicio_txt {
         text-shadow: 1px 1px #000000;
         text-align: center;
+        padding-bottom: 1rem;
     }
 
     .inicio_sociales {
         position: relative;
-        left: 11rem
+        left: 11rem;
     }
 
-    .inicio_sociales li a {
+    .inicio_sociales ul li {
         padding-right: 3rem;
     }
 
@@ -481,15 +493,17 @@ footer{
     /* inicio */
 
     #inicio {
-        height: 34rem;  
+        height: 45rem;  
     }
 
     .inicio_contenedor {
         width: 100%;
+        height: 45rem;
         margin: 0;
         position: relative;
         top: 0;
         background-color: rgba(255, 255, 255, 0.2);
+
     }
 
     .inicio_subcontenedor {
@@ -499,6 +513,10 @@ footer{
         padding: 1.6rem;
     }
 
+    .inicio_txt{
+        padding-bottom: 4rem;
+    }
+
     .inicio_sociales {
        margin: 0 auto;
        display: block;
@@ -506,7 +524,7 @@ footer{
     }
 
     .inicio_sociales li a {
-        padding-right: 3rem;
+        padding-right: 1rem;
     }
 
     /* Artista */
@@ -541,6 +559,7 @@ footer{
 
     #txt-artista h3{
         font-size: 2.4rem;
+        padding: 2rem;
     }
 
     #txt-artista p{
@@ -552,48 +571,49 @@ footer{
 
      #trabajos {
          height: 201rem;
+       
      }
 
      .imagen-trabajo-uno {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
-         left: 6rem ;
+         left: 2rem ;
      }
 
      .imagen-trabajo-dos {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
          top: 39rem;
-         left: 6rem;
+         left: 2rem;
      }
 
      .imagen-trabajo-tres {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
          top: 71rem;
-         left: 6rem;
+         left: 2rem;
      }
 
      .imagen-trabajo-cuatro {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
          top: 103rem;
-         left: 6rem;
+         left: 2rem;
 
      }
 
      .imagen-trabajo-cinco {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
          top: 135rem;
-         left: 6rem;
+         left: 2rem;
      }
 
      .imagen-trabajo-seis {
-         width: 30rem;
+         width: 90%;
          height: 30rem;
          top: 167rem;
-         left: 6rem;
+         left: 2rem;
      }
 
      /* Formulario */
