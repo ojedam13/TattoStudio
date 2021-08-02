@@ -132,6 +132,24 @@ footer{
 .inicio_sociales ul li a{
     color: #ffffffea;
 }
+ /* Cuestionario Js */
+ #interaccion {
+    background-color: #000;
+    height: 22rem;
+    color: #ffffff;
+    text-align: center;
+    border: 1px dashed rgb(71, 66, 66);
+ }
+
+ .contenedor-js h2{
+     font-family: 'Dancing Script', cursive;
+     padding-top: 1rem;
+ }
+ .contenedor-js p {
+     font-weight: bold;
+     padding-top: 1rem;
+     font-size: 2rem;
+ }
 
 /* Artista */
 
@@ -526,6 +544,9 @@ footer{
     .inicio_sociales li a {
         padding-right: 1rem;
     }
+
+   
+
 
     /* Artista */
 
