@@ -234,7 +234,9 @@ footer{
     width: 20rem;
     margin: 0 auto;
 }
-
+/* .contenedor_trabajos{
+    display: none;
+} */
 .imagen-trabajo-uno {
     position: absolute;
     background-color: #db1f11;
