@@ -234,10 +234,10 @@ footer{
     width: 20rem;
     margin: 0 auto;
 }
-.animado{
+/* #img_trabajo {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-}
+} */
 
  .imagen-trabajo-uno { 
     position: absolute;
