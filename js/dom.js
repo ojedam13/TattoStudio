@@ -9,7 +9,7 @@ function burguer() {
     }
 }
 
-// scrool imagenes
+// mostrar texto
 
 function mostrar() {
     
@@ -21,15 +21,17 @@ function mostrar() {
         var txt2 = document.getElementById('txt-artista');
         txt2.style.opacity = '0';
 }
-    
-function scroll() {
-    alert();
-    // var img = document.getElementById('img_trabajo');
-    // txt.style.display = 'block';
 
-}
-    // function noScroll() {
-    //     var img2 = document.getElementById('img_trabajo');
-    //     txt2.style.display = 'none';
-    // }
+// mostrar img
+
+// function scroll() {
+//     var img = document.getElementById('img_trabajo');
+//     img.style.opacity = '1';
+
+// }
+
+// function noScroll() {
+//     var img2 = document.getElementById('img_trabajo');
+//     img2.style.opacity = '0';
+// }
 
