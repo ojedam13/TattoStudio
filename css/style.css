@@ -234,15 +234,8 @@ footer{
     width: 20rem;
     margin: 0 auto;
 }
-/* #img_trabajo {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-.animado{
-    opacity: 0;
-    transition: all .5s ease-in-out;
-} */
- .imagen-trabajo-uno { 
+
+.imagen-trabajo-uno { 
     position: absolute;
     width: 30rem;
     height: 30rem;
