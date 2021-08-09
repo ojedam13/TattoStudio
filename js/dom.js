@@ -11,14 +11,14 @@ function burguer() {
 
 // mostrar texto
 
-function mostrar() {
+// function mostrar() {
     
-    var txt = document.getElementById('txt-artista');
-    txt.style.opacity = '1';
+//     var txt = document.getElementById('txt-artista');
+//     txt.style.opacity = '1';
     
 
-}
-    function ocultar() {
-        var txt2 = document.getElementById('txt-artista');
-        txt2.style.opacity = '0';
-}
+// }
+//     function ocultar() {
+//         var txt2 = document.getElementById('txt-artista');
+//         txt2.style.opacity = '0';
+// }
