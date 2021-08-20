@@ -289,6 +289,34 @@ footer{
       left: 64.5rem;
 }  
 
+/* Nosotros */
+
+#nosotros {
+    background-color: #cccc;
+    height: 1000px;
+
+}
+
+#mod_nos {
+    background-color: pink;
+    height: 500px;
+}
+
+#nosotros1 {
+    background-color: yellow;
+}
+
+#nosotros2 {
+    background-color: blue;
+    
+}
+
+#nosotros3 {
+    background-color: red;
+    
+}
+
+
 /* Formulario */
 
 #contacto {
@@ -480,6 +508,8 @@ footer{
         top: 63rem;
         left: 30rem;
     }
+
+
 
     /* Formulario */
 
