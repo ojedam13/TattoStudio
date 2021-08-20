@@ -298,8 +298,7 @@ footer{
 }
 
 #mod_nos {
-    background-color: pink;
-    height: 500px;
+    height: 1000px;
 }
 
 #nosotros1 {
@@ -314,6 +313,11 @@ footer{
 #nosotros3 {
     background-color: red;
     
+}
+
+#nosotros4 {
+    background-color: green;
+
 }
 
 
