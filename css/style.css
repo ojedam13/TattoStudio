@@ -336,6 +336,11 @@ footer{
    margin: 1rem auto 0; 
 }
 
+#form1{
+    height: 45rem;
+    background-color: #00ffdd;
+}
+
 
 /* Footer */
 
@@ -525,6 +530,11 @@ footer{
     #formulario {
         width: 90%;
         margin: 2rem auto 0;
+    }
+
+    #form1 {
+        height: 47rem;
+        background-color: #00ffdd;
     }
 
 
@@ -718,6 +728,10 @@ footer{
      #formulario {
          width: 90%;
          margin: 2rem auto 0;
+     }
+     #form1 {
+         height: 48rem;
+         background-color: #00ffdd;
      }
 }
 
