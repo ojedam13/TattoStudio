@@ -76,7 +76,7 @@ footer{
 
 #navegacion{
     height: 5rem;
-    width: 35rem;
+    width: 45rem;
     font-size: 1.8rem;
     float: left;
     padding: 1.2rem;
@@ -367,7 +367,13 @@ footer{
     }
 
     .marca {
-        width: 23rem;
+        width: 20rem;
+    }
+
+    #navegacion{
+        font-size: 1.6rem;
+        width: 38rem;
+        /* font-weight: bold; */
     }
 
     /* inicio */
