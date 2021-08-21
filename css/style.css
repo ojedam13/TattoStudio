@@ -186,7 +186,8 @@ footer{
     height: 38rem;
     position: relative;
 }
-.subtitulo h2{
+.subtitulo h2,
+.estilo_titulo {
     color: #ffffffea;
     text-align: center;
     text-transform: uppercase;
@@ -291,33 +292,39 @@ footer{
 
 /* Nosotros */
 
+.estilo_titulo span{
+    font-family: 'Roboto',
+    sans-serif;
+}
+
 #nosotros {
     background-color: #cccc;
     height: 1000px;
 
 }
 
-#mod_nos {
+/* #mod_nos {
     height: 1000px;
-}
+} */
 
 #nosotros1 {
-    background-color: yellow;
+    background-color: #000;
+
 }
 
 #nosotros2 {
     background-color: blue;
-    
+     /* height: 500px; */
 }
 
 #nosotros3 {
     background-color: red;
-    
+     /* height: 500px; */
 }
 
 #nosotros4 {
     background-color: green;
-
+ /* height: 500px; */
 }
 
 
