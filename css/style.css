@@ -306,12 +306,7 @@ footer{
 #nosotros1{
     padding-bottom: 1rem;
 }
-.boton{
-    padding-top: 1rem;
-    display: flex;
-    justify-content: space-evenly;
 
-}
 
 .card-body{
     background-color: #000;
@@ -328,9 +323,6 @@ footer{
     background-color: green;
 }
 
-#nosotros4 {
-    padding: 1rem;
-}
 
 
 
