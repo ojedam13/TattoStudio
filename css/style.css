@@ -298,34 +298,42 @@ footer{
 }
 
 #nosotros {
-    background-color: #cccc;
-    height: 1000px;
-
-}
-
-/* #mod_nos {
-    height: 1000px;
-} */
-
-#nosotros1 {
     background-color: #000;
+    height: 100%;
 
 }
 
-#nosotros2 {
-    background-color: blue;
-     /* height: 500px; */
+#nosotros1{
+    padding-bottom: 1rem;
+}
+.boton{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card-body{
+    background-color: #000;
+    color: white;
+    
+}
+
+.card-title,
+.card-header {
+    text-transform: uppercase;
 }
 
 #nosotros3 {
-    background-color: red;
-     /* height: 500px; */
+    background-color: green;
 }
 
 #nosotros4 {
-    background-color: green;
- /* height: 500px; */
+    padding: 1rem;
 }
+
+
+
 
 
 /* Formulario */
