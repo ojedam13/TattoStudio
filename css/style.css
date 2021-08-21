@@ -325,29 +325,29 @@ footer{
 
 
 
-
-
-
 /* Formulario */
 
 #contacto {
-    background-color: #d87093;
-    height: 52rem;
+    background-color: #000;
+    height: 100%;
     
 }
 
 #formulario{
-   background-color: #00ffdd;
+   
    height: 45rem;
    width: 55rem;
    margin: 1rem auto 0; 
 }
 
 #form1{
-    height: 45rem;
-    background-color: #00ffdd;
+    height: 100%;
+    background-color: #000;
 }
 
+#form label{
+    text-transform: uppercase;
+}
 
 /* Footer */
 
@@ -525,28 +525,7 @@ footer{
         left: 30rem;
     }
 
-
-
-    /* Formulario */
-
-    #contacto {
-        height: 55rem;
-
-    }
-
-    #formulario {
-        width: 90%;
-        margin: 2rem auto 0;
-    }
-
-    #form1 {
-        height: 47rem;
-        background-color: #00ffdd;
-    }
-
-
 }
-
 /* Fin media 800 a 1023px */
 
 @media all and (max-width: 599px) {
@@ -725,21 +704,5 @@ footer{
          left: 2rem;
      }
 
-     /* Formulario */
-
-     #contacto {
-         height: 55rem;
-
-     }
-
-     #formulario {
-         width: 90%;
-         margin: 2rem auto 0;
-     }
-     #form1 {
-         height: 48rem;
-         background-color: #00ffdd;
-     }
 }
-
 /* Fin Media 599px */
