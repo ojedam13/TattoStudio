@@ -198,11 +198,12 @@ footer{
     margin: 0;
 }
 #img-artista{
-    height: 35rem;
-    width: 25rem;
+    height: 22rem;
+    width: 22rem;
     position: absolute;
     top: 10rem;
     left: 22rem;
+   
 }
 
 .tatuador{
