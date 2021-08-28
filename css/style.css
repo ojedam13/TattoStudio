@@ -236,8 +236,8 @@ footer{
 
 #trabajos {
     background-color: #000;
-    height: 70rem;
-    position: relative;
+    /* height: 70rem;
+    position: relative; */
 }
 .subtitulo{
     background-color: #000000;
@@ -246,7 +246,7 @@ footer{
     margin: 0 auto;
 }
 
-.imagen-trabajo-uno { 
+/* .imagen-trabajo-uno { 
     position: absolute;
     width: 30rem;
     height: 30rem;
@@ -288,7 +288,7 @@ footer{
      height: 30rem;
       top: 38.5rem;
       left: 64.5rem;
-}  
+}   */
 
 /* Nosotros */
 
@@ -481,7 +481,7 @@ footer{
 
     /* Trabajos */
 
-    #trabajos {
+    /* #trabajos {
         height: 93rem;
     }
 
@@ -523,7 +523,7 @@ footer{
         height: 26rem;
         top: 63rem;
         left: 30rem;
-    }
+    } */
 
 }
 /* Fin media 800 a 1023px */
@@ -657,7 +657,7 @@ footer{
 
      /* Trabajos */
 
-     #trabajos {
+     /* #trabajos {
          height: 201rem;
        
      }
@@ -702,7 +702,7 @@ footer{
          height: 30rem;
          top: 167rem;
          left: 2rem;
-     }
+     } */
 
 }
 /* Fin Media 599px */
