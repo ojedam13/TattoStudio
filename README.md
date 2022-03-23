@@ -6,3 +6,5 @@ Tecnologías:
 - CSS
 - Bootstrap
 - Javascript
+
+enlace: https://tattolifestudio.netlify.app/
